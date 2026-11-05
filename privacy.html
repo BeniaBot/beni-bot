@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Beni - מדיניות פרטיות</title>
+<style>
+  :root { --bg:#fafaf8; --fg:#1f2328; --muted:#5b6470; --line:#e2e2dc; --link:#0b5cad; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#16181b; --fg:#e9e9e6; --muted:#a3a9b1; --line:#2d3036; --link:#7db5ec; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.7 system-ui,"Segoe UI",Arial,sans-serif; }
+  main { max-width:640px; margin:0 auto; padding:40px 20px 56px; }
+  h1 { font-size:28px; margin:0 0 4px; }
+  h2 { font-size:18px; margin:28px 0 4px; }
+  p, ul { margin:0 0 8px; }
+  ul { padding-inline-start:22px; }
+  a { color:var(--link); }
+  .muted { color:var(--muted); font-size:15px; }
+  footer { margin-top:36px; padding-top:14px; border-top:1px solid var(--line); }
+</style>
+</head>
+<body>
+<main>
+  <h1>מדיניות פרטיות</h1>
+  <p class="muted">Beni, עודכן ב-5.11.2026</p>
+
+  <h2>מה זה</h2>
+  <p>Beni הוא בוט פרטי שעונה בקבוצה אחת בגוגל צ׳אט. הוא רץ בחשבון Google של מי שהתקין אותו, ועונה מהחשבון הזה.</p>
+
+  <h2>מה הוא קורא</h2>
+  <p>בכל דקה הוא בודק הודעות חדשות באותה קבוצה בלבד, ומחפש בהן תיוג שלו או תגובה לתשובה שלו. כשהוא נדרש לענות, הוא קורא גם עד 40 הודעות קודמות בקבוצה, ועד 100 כשמבקשים ממנו סיכום.</p>
+
+  <h2>לאן זה נשלח</h2>
+  <p>ההודעה שהוא עונה עליה וההודעות הקודמות, כולל שמות הכותבים אם הם זמינים, נשלחות ל-Gemini של Google כדי לנסח תשובה. הבוט משתמש במסלול החינמי, ובמסלול הזה Google רשאית להשתמש בתוכן לשיפור המוצרים שלה. לכן לא כדאי לתייג אותו בשיחה עם מידע רגיש.</p>
+
+  <h2>מה הוא שומר</h2>
+  <p>רק מידע טכני בתוך Google Apps Script: מזהי הודעות ושרשורים, וזמן הבדיקה האחרונה. הוא לא שומר בעצמו את תוכן ההודעות.</p>
+
+  <h2>מה הוא לא עושה</h2>
+  <ul>
+    <li>לא מוכר מידע ולא מעביר אותו לפרסום.</li>
+    <li>לא קורא שיחות או קבוצות אחרות.</li>
+    <li>לא משתמש במידע מחשבונות Google של חברי הקבוצה.</li>
+  </ul>
+
+  <h2>יצירת קשר</h2>
+  <p>שאלות ובקשות אפשר לפתוח ב<a href="https://github.com/BeniaBot/beni-bot/issues">דף הפניות של הפרויקט</a>.</p>
+
+  <footer class="muted"><a href="./">לדף הבית</a></footer>
+</main>
+</body>
+</html>
